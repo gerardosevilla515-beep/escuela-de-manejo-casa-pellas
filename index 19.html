@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Escuela de Manejo Casa Pellas en Managua. Formación vial teórica y práctica con respaldo Casa Pellas.">
+  <meta name="theme-color" content="#d71920">
+  <title>Escuela de Manejo Casa Pellas</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    :root{--red:#d71920;--red-dark:#b51219;--ink:#171717;--muted:#656565;--soft:#f5f5f5;--line:#e5e5e5}
+    html{scroll-behavior:smooth;scroll-padding-top:86px}
+    body{font-family:Arial,"Helvetica Neue",sans-serif;color:var(--ink);background:#fff}
+    a{text-decoration:none}.section{padding:88px 0}.eyebrow{color:var(--red);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .section-title{font-size:clamp(2rem,4vw,3.25rem);font-weight:800;letter-spacing:-.04em}.section-copy{color:var(--muted);max-width:720px}
+    .navbar{background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,.07)}
+    .navbar-brand img{height:54px;width:auto}.nav-link{color:#202020;font-weight:700}.nav-link:hover,.nav-link:focus{color:var(--red)}
+    .btn-brand{background:var(--red);border-color:var(--red);color:#fff;font-weight:800;border-radius:3px;padding:.85rem 1.25rem}.btn-brand:hover{background:var(--red-dark);border-color:var(--red-dark);color:#fff}
+    .btn-outline-light{font-weight:800;border-width:2px;border-radius:3px;padding:.8rem 1.25rem}
+    .hero{min-height:78vh;display:flex;align-items:center;position:relative;color:#fff;background:linear-gradient(90deg,rgba(0,0,0,.78) 0%,rgba(0,0,0,.48) 52%,rgba(0,0,0,.18) 100%),url('escuela de manejo vista.jpg') center/cover no-repeat}
+    .hero h1{font-size:clamp(2.7rem,7vw,5.8rem);line-height:.95;font-weight:900;letter-spacing:-.055em;max-width:950px}.hero p{font-size:clamp(1.05rem,2vw,1.35rem);max-width:700px;color:#f1f1f1}
+    .hero-badge{display:inline-flex;gap:.6rem;align-items:center;border-left:4px solid var(--red);padding:.3rem 0 .3rem 1rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+    .stats{background:#111;color:#fff}.stat{padding:28px 16px;border-right:1px solid rgba(255,255,255,.16)}.stat:last-child{border-right:0}.stat strong{display:block;font-size:2rem}.stat span{color:#cfcfcf}
+    .feature{height:100%;padding:34px 28px;border:1px solid var(--line);background:#fff;transition:.25s}.feature:hover{transform:translateY(-5px);box-shadow:0 18px 50px rgba(0,0,0,.08);border-color:transparent}.feature i{font-size:2rem;color:var(--red)}
+    .course-card{height:100%;border:0;border-radius:0;overflow:hidden;box-shadow:0 10px 35px rgba(0,0,0,.09)}.course-card img{height:230px;object-fit:cover}.course-card .card-body{padding:28px}.course-card h3{font-weight:900}.course-meta{display:flex;gap:12px;flex-wrap:wrap;color:#555;font-size:.9rem}.course-meta span{background:#f1f1f1;padding:.45rem .65rem}.course-link{color:var(--red);font-weight:900}.course-link:hover{color:var(--red-dark)}
+    .gallery-item{position:relative;overflow:hidden;background:#111}.gallery-item img{width:100%;height:320px;object-fit:cover;transition:.4s}.gallery-item:hover img{transform:scale(1.045);opacity:.85}.gallery-label{position:absolute;left:0;right:0;bottom:0;padding:42px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff;font-weight:900}
+    .schedule{background:#111;color:#fff}.schedule-card{height:100%;padding:30px;border:1px solid #333}.schedule-card i{color:var(--red);font-size:1.8rem}
+    .form-wrap{background:#fff;box-shadow:0 20px 70px rgba(0,0,0,.12);padding:clamp(24px,5vw,55px)}.form-control,.form-select{min-height:52px;border-radius:2px;border-color:#ccc}.form-control:focus,.form-select:focus{border-color:var(--red);box-shadow:0 0 0 .2rem rgba(215,25,32,.12)}
+    .privacy-note{font-size:.88rem;color:#666}.contact-panel{height:100%;background:var(--red);color:#fff;padding:clamp(28px,5vw,55px)}.contact-panel a{color:#fff}.contact-panel .contact-line{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.25)}
+    footer{background:#0a0a0a;color:#bbb;padding:46px 0 28px}footer img{height:58px;background:#fff;padding:5px}.footer-link{color:#ddd}.footer-link:hover{color:#fff}
+    .whatsapp{position:fixed;right:22px;bottom:22px;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff;font-size:1.8rem;box-shadow:0 10px 30px rgba(0,0,0,.28);z-index:1030}.whatsapp:hover{color:#fff;transform:scale(1.05)}
+    .toast-container{z-index:1100}.bg-soft{background:var(--soft)}
+    @media(max-width:991px){.hero{min-height:72vh;background-position:62% center}.stat{border-right:0;border-bottom:1px solid rgba(255,255,255,.16)}.navbar-brand img{height:46px}}
+    @media(max-width:576px){.section{padding:66px 0}.hero{min-height:82vh}.hero h1{font-size:2.8rem}.gallery-item img{height:260px}}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio" aria-label="Ir al inicio"><img src="logo-escuelamanejo.png" alt="Escuela de Manejo Casa Pellas"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 py-3 py-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos">Planes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horarios">Horarios</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-brand" href="#inscripcion">Inscribirme</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="container py-5">
+      <div class="hero-badge mb-4">Escuela de Manejo Casa Pellas</div>
+      <h1>Conduzca con seguridad. Avance con confianza.</h1>
+      <p class="mt-4 mb-4">Formación teórica y práctica para conducir de manera segura y responsable, con instructores especializados, vehículos equipados y el respaldo de Casa Pellas.</p>
+      <div class="d-flex flex-wrap gap-3">
+        <a class="btn btn-brand btn-lg" href="#inscripcion">Solicitar inscripción</a>
+        <a class="btn btn-outline-light btn-lg" href="#cursos">Conocer los planes</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="stats" aria-label="Datos destacados">
+    <div class="container"><div class="row text-center">
+      <div class="col-6 col-lg-3 stat"><strong>Desde 2012</strong><span>Formación vial responsable</span></div>
+      <div class="col-6 col-lg-3 stat"><strong>5 planes</strong><span>Manuales y automáticos</span></div>
+      <div class="col-6 col-lg-3 stat"><strong>Teoría + práctica</strong><span>Aprendizaje integral</span></div>
+      <div class="col-6 col-lg-3 stat"><strong>Managua</strong><span>Casa Pellas Plaza España</span></div>
+    </div></div>
+  </section>
+
+  <section class="section" id="beneficios">
+    <div class="container">
+      <div class="row align-items-end mb-5"><div class="col-lg-8"><div class="eyebrow">Respaldo y seguridad</div><h2 class="section-title mt-2">Una formación pensada para la vida real</h2></div><div class="col-lg-4"><p class="section-copy mb-0">Aprenda con una metodología clara, vehículos preparados e instructores enfocados en desarrollar hábitos responsables.</p></div></div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3"><article class="feature"><i class="bi bi-person-badge"></i><h3 class="h5 fw-bold mt-3">Instructores capacitados</h3><p class="mb-0 text-secondary">Acompañamiento profesional durante el aprendizaje teórico y práctico.</p></article></div>
+        <div class="col-md-6 col-lg-3"><article class="feature"><i class="bi bi-car-front"></i><h3 class="h5 fw-bold mt-3">Vehículos equipados</h3><p class="mb-0 text-secondary">Unidades en condiciones adecuadas para una enseñanza segura y confiable.</p></article></div>
+        <div class="col-md-6 col-lg-3"><article class="feature"><i class="bi bi-shield-check"></i><h3 class="h5 fw-bold mt-3">Enfoque preventivo</h3><p class="mb-0 text-secondary">Buenas prácticas, responsabilidad vial y técnicas para conducir con confianza.</p></article></div>
+        <div class="col-md-6 col-lg-3"><article class="feature"><i class="bi bi-buildings"></i><h3 class="h5 fw-bold mt-3">Respaldo Casa Pellas</h3><p class="mb-0 text-secondary">Una experiencia vinculada al conocimiento y trayectoria del grupo automotriz.</p></article></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-soft" id="cursos">
+    <div class="container">
+      <div class="eyebrow text-center">Elija su ruta</div><h2 class="section-title text-center mt-2">Nuestros planes de formación</h2><p class="section-copy text-center mx-auto mb-5">Los precios se brindan de forma personalizada. Seleccione un plan y envíe su solicitud para recibir información.</p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4"><article class="card course-card"><img src="escuela de manejo curso.webp" alt="Curso práctico de conducción" loading="lazy"><div class="card-body"><h3 class="h4">Principiante MT</h3><p>Para quienes nunca han conducido y desean desarrollar las bases en transmisión manual.</p><div class="course-meta mb-3"><span>10 h teóricas</span><span>15 h prácticas</span></div><a href="#inscripcion" class="course-link plan-link" data-plan="Principiante MT">Solicitar información <i class="bi bi-arrow-right"></i></a></div></article></div>
+        <div class="col-md-6 col-lg-4"><article class="card course-card"><img src="escuela de manejo personal y vehiculos.webp" alt="Personal y vehículos de la escuela" loading="lazy"><div class="card-body"><h3 class="h4">Intermedio MT</h3><p>Para reforzar habilidades existentes mediante evaluación y práctica en transmisión manual.</p><div class="course-meta mb-3"><span>10 h teóricas</span><span>10 h prácticas</span></div><a href="#inscripcion" class="course-link plan-link" data-plan="Intermedio MT">Solicitar información <i class="bi bi-arrow-right"></i></a></div></article></div>
+        <div class="col-md-6 col-lg-4"><article class="card course-card"><img src="escuea de manejo profesores.webp" alt="Equipo de instructores" loading="lazy"><div class="card-body"><h3 class="h4">Avanzado MT</h3><p>Para personas con experiencia que desean perfeccionar técnicas en transmisión manual.</p><div class="course-meta mb-3"><span>10 h teóricas</span><span>5 h prácticas</span></div><a href="#inscripcion" class="course-link plan-link" data-plan="Avanzado MT">Solicitar información <i class="bi bi-arrow-right"></i></a></div></article></div>
+        <div class="col-md-6"><article class="card course-card"><img src="escuela de manejo.webp" alt="Vehículo de práctica de la escuela" loading="lazy"><div class="card-body"><h3 class="h4">Principiante AT</h3><p>Formación inicial para conducir vehículos con transmisión automática.</p><div class="course-meta mb-3"><span>10 h teóricas</span><span>10 h prácticas</span></div><a href="#inscripcion" class="course-link plan-link" data-plan="Principiante AT">Solicitar información <i class="bi bi-arrow-right"></i></a></div></article></div>
+        <div class="col-md-6"><article class="card course-card"><img src="curso de moto.webp" alt="Práctica de manejo en las instalaciones" loading="lazy"><div class="card-body"><h3 class="h4">Avanzado AT</h3><p>Perfeccionamiento de conducción para personas con experiencia en vehículos automáticos.</p><div class="course-meta mb-3"><span>10 h teóricas</span><span>5 h prácticas</span></div><a href="#inscripcion" class="course-link plan-link" data-plan="Avanzado AT">Solicitar información <i class="bi bi-arrow-right"></i></a></div></article></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experiencia">
+    <div class="container"><div class="eyebrow">Conozca la escuela</div><h2 class="section-title mt-2 mb-5">Aprendizaje en un entorno profesional</h2>
+      <div class="row g-3">
+        <div class="col-lg-7"><figure class="gallery-item mb-0"><img src="escuela de manejo vista.jpg" alt="Vista de las instalaciones de la Escuela de Manejo Casa Pellas" loading="lazy"><figcaption class="gallery-label">Instalaciones y flota de entrenamiento</figcaption></figure></div>
+        <div class="col-lg-5"><figure class="gallery-item mb-0"><img src="escuea de manejo profesores.webp" alt="Equipo de instructores de la escuela" loading="lazy"><figcaption class="gallery-label">Equipo de instructores</figcaption></figure></div>
+        <div class="col-lg-4"><figure class="gallery-item mb-0"><img src="curso de moto.webp" alt="Entrenamiento práctico" loading="lazy"><figcaption class="gallery-label">Entrenamiento práctico</figcaption></figure></div>
+        <div class="col-lg-4"><figure class="gallery-item mb-0"><img src="escuela de manejo curso.webp" alt="Sesión de curso de manejo" loading="lazy"><figcaption class="gallery-label">Formación progresiva</figcaption></figure></div>
+        <div class="col-lg-4"><figure class="gallery-item mb-0"><img src="escuela de manejo personal y vehiculos.webp" alt="Personal junto a vehículos de entrenamiento" loading="lazy"><figcaption class="gallery-label">Respaldo y acompañamiento</figcaption></figure></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section schedule" id="horarios">
+    <div class="container"><div class="row align-items-end mb-5"><div class="col-lg-8"><div class="eyebrow">Organice su aprendizaje</div><h2 class="section-title text-white mt-2">Horarios de referencia</h2></div><div class="col-lg-4"><p class="mb-0 text-light">La disponibilidad se confirma directamente con el equipo de la escuela.</p></div></div>
+      <div class="row g-4">
+        <div class="col-md-4"><div class="schedule-card"><i class="bi bi-calendar3"></i><h3 class="h5 fw-bold mt-3">Seminario entre semana</h3><p class="mb-0 text-light">Miércoles, jueves y viernes<br>3:00 p. m. a 6:30 p. m.</p></div></div>
+        <div class="col-md-4"><div class="schedule-card"><i class="bi bi-calendar-week"></i><h3 class="h5 fw-bold mt-3">Seminario fin de semana</h3><p class="mb-0 text-light">Sábado y domingo<br>8:00 a. m. a 1:00 p. m.</p></div></div>
+        <div class="col-md-4"><div class="schedule-card"><i class="bi bi-geo-alt"></i><h3 class="h5 fw-bold mt-3">Ubicación</h3><p class="mb-0 text-light">Sala Blanca, edificio administrativo<br>Casa Pellas Plaza España, Managua</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-soft" id="inscripcion">
+    <div class="container"><div class="row g-0 align-items-stretch">
+      <div class="col-lg-7"><div class="form-wrap"><div class="eyebrow">Dé el primer paso</div><h2 class="section-title mt-2">Solicitud de inscripción</h2><p class="section-copy mb-4">Complete sus datos. En esta vista previa de GitHub Pages, el botón preparará un correo dirigido al equipo de la escuela.</p>
+        <form id="registrationForm" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6"><label class="form-label" for="nombre">Nombre completo</label><input class="form-control" id="nombre" name="nombre" autocomplete="name" required></div>
+            <div class="col-md-6"><label class="form-label" for="cedula">Número de cédula</label><input class="form-control" id="cedula" name="cedula" required></div>
+            <div class="col-md-6"><label class="form-label" for="correo">Correo electrónico</label><input type="email" class="form-control" id="correo" name="correo" autocomplete="email" required></div>
+            <div class="col-md-6"><label class="form-label" for="telefono">Teléfono / WhatsApp</label><input type="tel" class="form-control" id="telefono" name="telefono" autocomplete="tel" required></div>
+            <div class="col-12"><label class="form-label" for="plan">Plan de interés</label><select class="form-select" id="plan" name="plan" required><option value="">Seleccione una opción</option><option>Principiante MT</option><option>Intermedio MT</option><option>Avanzado MT</option><option>Principiante AT</option><option>Avanzado AT</option></select></div>
+            <div class="col-12"><label class="form-label" for="cedulaArchivo">Copia de cédula en JPG</label><input type="file" class="form-control" id="cedulaArchivo" name="cedulaArchivo" accept="image/jpeg,.jpg,.jpeg" required><div class="form-text">Máximo 5 MB. El archivo se valida en esta vista previa, pero no puede adjuntarse automáticamente a un correo desde GitHub Pages.</div></div>
+            <div class="col-12"><label class="form-label" for="comentarios">Comentarios opcionales</label><textarea class="form-control" id="comentarios" name="comentarios" rows="4"></textarea></div>
+            <div class="col-12 form-check ms-2"><input class="form-check-input" type="checkbox" id="consentimiento" required><label class="form-check-label privacy-note" for="consentimiento">Autorizo el contacto relacionado con esta solicitud y confirmo que la información suministrada es correcta.</label></div>
+            <div class="col-12 d-grid d-sm-flex gap-3 mt-4"><button class="btn btn-brand btn-lg" type="submit"><i class="bi bi-envelope me-2"></i>Preparar solicitud</button><a class="btn btn-outline-dark btn-lg" href="https://wa.me/50584243524?text=Hola%2C%20deseo%20informaci%C3%B3n%20sobre%20los%20cursos%20de%20la%20Escuela%20de%20Manejo%20Casa%20Pellas" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp me-2"></i>Consultar por WhatsApp</a></div>
+          </div>
+        </form>
+      </div></div>
+      <div class="col-lg-5"><aside class="contact-panel"><div class="eyebrow text-white">Contacto</div><h2 class="display-6 fw-bold mt-2">Estamos para orientarle</h2><p>Solicite información sobre planes, requisitos y disponibilidad.</p>
+        <div class="contact-line"><i class="bi bi-whatsapp fs-4"></i><div><small>WhatsApp</small><br><a href="https://wa.me/50584243524" target="_blank" rel="noopener noreferrer"><strong>8424-3524</strong></a></div></div>
+        <div class="contact-line"><i class="bi bi-envelope fs-4"></i><div><small>Correo</small><br><a href="mailto:srtorres@casapellas.com"><strong>srtorres@casapellas.com</strong></a></div></div>
+        <div class="contact-line"><i class="bi bi-telephone fs-4"></i><div><small>Teléfono</small><br><a href="tel:+50522554444"><strong>2255-4444 ext. 5359</strong></a></div></div>
+        <div class="contact-line border-0"><i class="bi bi-geo-alt fs-4"></i><div><small>Ubicación</small><br><strong>Casa Pellas Plaza España, Managua</strong></div></div>
+      </aside></div>
+    </div></div>
+  </section>
+
+  <footer><div class="container"><div class="row align-items-center g-4"><div class="col-lg-5"><img src="logo-escuelamanejo.png" alt="Escuela de Manejo Casa Pellas"><p class="mt-3 mb-0">Formación segura y responsable con el respaldo de Casa Pellas.</p></div><div class="col-lg-4"><h2 class="h6 text-white">Navegación</h2><div class="d-flex flex-column gap-2"><a class="footer-link" href="#cursos">Planes</a><a class="footer-link" href="#experiencia">Experiencia</a><a class="footer-link" href="#horarios">Horarios</a><a class="footer-link" href="#inscripcion">Inscripción</a></div></div><div class="col-lg-3 text-lg-end"><p class="mb-1">Managua, Nicaragua</p><p class="mb-0">© <span id="year"></span> Escuela de Manejo Casa Pellas</p></div></div></div></footer>
+
+  <a class="whatsapp" href="https://wa.me/50584243524?text=Hola%2C%20deseo%20informaci%C3%B3n%20sobre%20los%20cursos%20de%20la%20Escuela%20de%20Manejo%20Casa%20Pellas" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+  <div class="toast-container position-fixed top-0 end-0 p-3"><div id="statusToast" class="toast" role="status" aria-live="polite" aria-atomic="true"><div class="toast-header"><strong class="me-auto">Solicitud de inscripción</strong><button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button></div><div class="toast-body" id="toastMessage"></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const form = document.getElementById('registrationForm');
+    const fileInput = document.getElementById('cedulaArchivo');
+    const toast = new bootstrap.Toast(document.getElementById('statusToast'));
+    const showToast = message => { document.getElementById('toastMessage').textContent = message; toast.show(); };
+
+    document.querySelectorAll('.plan-link').forEach(link => link.addEventListener('click', () => {
+      document.getElementById('plan').value = link.dataset.plan;
+    }));
+
+    fileInput.addEventListener('change', () => {
+      const file = fileInput.files[0];
+      if (!file) return;
+      const validType = ['image/jpeg'].includes(file.type) || /\.jpe?g$/i.test(file.name);
+      if (!validType || file.size > 5 * 1024 * 1024) {
+        fileInput.value = '';
+        showToast('Seleccione una imagen JPG o JPEG de hasta 5 MB.');
+      }
+    });
+
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!form.checkValidity()) { form.classList.add('was-validated'); showToast('Revise los campos obligatorios antes de continuar.'); return; }
+      const f = fileInput.files[0];
+      if (!f || f.size > 5 * 1024 * 1024) { showToast('Adjunte una copia de cédula JPG de hasta 5 MB.'); return; }
+      const subject = encodeURIComponent('Nueva solicitud - Escuela de Manejo Casa Pellas');
+      const body = encodeURIComponent(
+        'SOLICITUD DE INSCRIPCIÓN\n\n' +
+        'Nombre: ' + document.getElementById('nombre').value + '\n' +
+        'Cédula: ' + document.getElementById('cedula').value + '\n' +
+        'Correo: ' + document.getElementById('correo').value + '\n' +
+        'Teléfono / WhatsApp: ' + document.getElementById('telefono').value + '\n' +
+        'Plan: ' + document.getElementById('plan').value + '\n' +
+        'Comentarios: ' + (document.getElementById('comentarios').value || 'Sin comentarios') + '\n\n' +
+        'Importante: adjuntar manualmente la copia de cédula JPG seleccionada antes de enviar este correo.'
+      );
+      showToast('Se abrirá su aplicación de correo. Adjunte manualmente la copia de cédula antes de enviar.');
+      window.location.href = 'mailto:srtorres@casapellas.com?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>
